@@ -17,9 +17,9 @@ session_start();
     <div class="Navbar">
         <div class="HeaderText">
             <div class="nav">
-                <a href="Home.php" p class="topText">Matt Vetsch Construction</p>
+                <a href="index.php" p class="topText">Matt Vetsch Construction</p>
                 </a>
-                <a href="Login.php" p class="NavElement">Sign in</p>
+                <a href="login.php" p class="NavElement">Sign in</p>
                 </a>
                 <a href="About.php" p class="NavElement">About Us</p>
                 </a>

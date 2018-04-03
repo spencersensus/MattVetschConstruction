@@ -1,0 +1,134 @@
+﻿body{
+    margin: 0px;
+    padding:0px;
+    background-color:white;
+}
+html{
+    padding:0px;
+    margin:0px;
+}
+p{
+    margin:0px;
+    color:black;
+}
+*{
+    text-decoration: none;
+}
+#Account{
+    display:none;
+  }
+h1{
+    color: #5d5d5d;
+    text-align:center;
+    font-size: 64px;
+    line-height: 1.3125em;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.info{
+    color: #5d5d5d;
+    font-size:30px;
+    padding-top:30px;
+}
+
+
+.HeaderText{
+    position: absolute;
+    font-size:50px;
+    top: 70px;
+    width:80%;
+    left:45%;
+    transform: translate(-50%, -50%);
+}
+.bottomText{
+    color:black;
+    margin-left:210px;
+}
+.topText{
+  text-decoration: none;
+  color:black;
+  display:inline-block;
+}
+.NavElement{
+  display:inline-block;
+  font-size: 22px;
+  margin-left: 40px;
+  color:black;
+}
+/*Navbar Start */
+.nav{
+  display:inline-block;
+}
+.Navbar{
+    Height:150px;
+}
+.AboutPicture{
+    Height:400px;
+    background-image: url('home.jpg');
+}
+.AboutContainer{
+    padding:0 60px;
+    Height:690px;
+}
+.container2 {
+  display:block;
+}
+
+button.signupbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 40px;
+  margin: 8px 67px;
+  border: none;
+  cursor: pointer;
+  width: 152px;
+  opacity: 0.9;
+}
+
+button.signupbtn:hover {
+  opacity:1;
+}
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 275px;
+float:center;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: block;
+border: none;
+background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+@media screen and (max-width: 1300px){
+    .HeaderText{
+      font-size:35px;
+    }
+    .NavElement{
+      font-size: 18px;
+    }
+    .bottomText{
+      font-size:35px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1000px){
+    .HeaderText{
+      font-size:25px;
+    }
+    .NavElement{
+      font-size: 15px;
+    }
+    .bottomText{
+      font-size:25px;
+    }
+  }

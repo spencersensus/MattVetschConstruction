@@ -1,0 +1,248 @@
+﻿body{
+    margin: 0px;
+    padding:0px;
+    background-color:white;
+}
+html{
+    padding:0px;
+    margin:0px;
+}
+p{
+    margin:0px;
+    color:black;
+}
+
+
+.HeaderText{
+    position: absolute;
+    font-size:50px;
+    top: 10%;
+    width:80%;
+    left:45%;
+    transform: translate(-50%, -50%);
+}
+.bottomText{
+    color:white;
+    margin-left:210px;
+}
+.topText{
+  color:white;
+  display:inline-block;
+}
+.NavElement{
+  display:inline-block;
+  font-size: 22px;
+  margin-left: 40px;
+  color:white;
+}
+/*Navbar Start */
+.nav{
+  display:inline-block;
+}
+/* NavBar End */
+
+/* SlideShow start */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    padding:0px;    
+  }
+
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  /*SlideShow end */
+  
+  .Gaurentee{
+    Height:400px;
+    Background-color:white;
+    padding-top:30px;
+  }
+  .HomeText{
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-align: center;
+    color: #393939
+  }
+  .HomeText2{
+    font-family: 'Crete Round',sans-serif;
+    font-size:28px;
+    text-align: center;
+    line-height:1.3em;
+    font-style:italic;
+    font-weight:400;
+    color: #5d5d5d;
+  }
+  .QuickContact{
+    Height: 400px;
+    background-color: #8d8d8d
+  }
+  .Offer{
+    text-align: center;
+    color:#393939;
+    font-weight:700;
+    letter-spacing:2px;
+    padding-top:140px;
+    font-size:40px;
+  }
+  .ContactButton{
+    text-align: center;
+  }
+  .Contact{
+    color:#393939;
+    font-size:40px;
+    padding: 15px 32px;
+    text-decoration: none;
+    background-color:#9ACD32
+  }
+  #Account{
+    display:none;
+  }
+
+  .ContactContainer{
+    display:none;
+  }
+  .container2 {
+    padding-left:38%;
+    display:block;
+  }
+
+  button.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 40px;
+    margin: 8px 67px;
+    border: none;
+    cursor: pointer;
+    width: 152px;
+    opacity: 0.9;
+  }
+  
+  button.signupbtn:hover {
+    opacity:1;
+  }
+  * {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 275px;
+  float:center;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+  @media screen and (max-width: 1300px){
+    .HeaderText{
+      font-size:35px;
+    }
+    .NavElement{
+      font-size: 14px;
+    }
+    .bottomText{
+      font-size:35px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1000px){
+    .HeaderText{
+      font-size:22px;
+    }
+    .NavElement{
+      font-size: 11px;
+    }
+    .bottomText{
+      font-size:22px;
+    }
+  }

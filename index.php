@@ -12,7 +12,6 @@
 </head>
 
 <body>
-<?php include_once("index.html"); ?>
 <?php
 session_start();
 
@@ -49,7 +48,7 @@ class testing{
       <div class="HeaderText">
         <div class="nav">
           <a href = "Home.php" p class = "topText">Matt Vetsch Construction</p></a>
-          <a href = "Login.php" p class = "NavElement">Sign in</p></a>
+          <a href = "login.php" p class = "NavElement">Sign in</p></a>
           <a href = "About.php" p class = "NavElement">About Us</p></a>
           <a href = "ContactPage.php" p class = "NavElement">Contact</p></a>
           <a href = "GalleryPage.php" p class = "NavElement">Porfolio</p></a>

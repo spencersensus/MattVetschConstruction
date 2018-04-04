@@ -89,7 +89,7 @@ return $result;
                     </a>
                     <a href="ContactPage.php" p class="NavElement">Contact</p>
                     </a>
-                    <a href="GalleryPage.php" p class="NavElement">Porfolio</p>
+                    <a href="GalleryPage.php" p class="NavElement">Portfolio</p>
                     <a href = "Account.php" p class = "NavElement" id = "Account">John Smith</p>   
                     </a>
                     </a>

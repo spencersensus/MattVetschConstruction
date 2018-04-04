@@ -51,7 +51,7 @@ class testing{
           <a href = "login.php" p class = "NavElement">Sign in</p></a>
           <a href = "About.php" p class = "NavElement">About Us</p></a>
           <a href = "ContactPage.php" p class = "NavElement">Contact</p></a>
-          <a href = "GalleryPage.php" p class = "NavElement">Porfolio</p></a>
+          <a href = "GalleryPage.php" p class = "NavElement">Portfolio</p></a>
           <a href = "Account.php" p class = "NavElement" id = "Account">Account</a>
           </div>
         <p class="bottomText">

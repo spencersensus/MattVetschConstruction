@@ -16,10 +16,10 @@ session_start();
 class testSchedule{
   
     public function getSchedule(){
-        $servername = "127.0.0.1";
-        $username = "root";
-        $password = "Soccer#40";
-        $dbname = "sys";
+    $servername = "us-cdbr-iron-east-05.cleardb.net";
+    $username = "b8e0f272fb8f08";
+    $password = "aa2cd6ef";
+    $dbname = "heroku_2e7fd5728c9b996";
     
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -62,7 +62,7 @@ class testSchedule{
                 </a>
                 <a href="ContactPage.php" p class="NavElement">Contact</p>
                 </a>
-                <a href="GalleryPage.php" p class="NavElement">Porfolio</p>
+                <a href="GalleryPage.php" p class="NavElement">Portfolio</p>
                 </a>
                 <a href = "Account.php" p class = "NavElement" id = "Account">Account</a>
             </div>

@@ -25,7 +25,7 @@ session_start();
                 </a>
                 <a href="ContactPage.php" p class="NavElement">Contact</p>
                 </a>
-                <a href="GalleryPage.php" p class="NavElement">Porfolio</p>
+                <a href="GalleryPage.php" p class="NavElement">Portfolio</p>
                 </a>
                 <a href = "Account.php" p class = "NavElement" id = "Account">John Smith</a>
             </div>

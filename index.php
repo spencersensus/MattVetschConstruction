@@ -18,10 +18,10 @@ session_start();
 
 class testing{
   public function saveComment($email,$phone,$comm){
-   $servername = "127.0.0.1";
-   $username = "root";
-   $password = "Soccer#40";
-   $dbname = "sys";
+    $servername = "us-cdbr-iron-east-05.cleardb.net";
+    $username = "b8e0f272fb8f08";
+    $password = "aa2cd6ef";
+    $dbname = "heroku_2e7fd5728c9b996";
    
    // Create connection
    $conn = new mysqli($servername, $username, $password, $dbname);

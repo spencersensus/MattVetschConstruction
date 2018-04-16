@@ -128,6 +128,7 @@ if(isset($_POST['sub']))
     $email = $_POST["email"];
     $pass = $_POST["psw"];
     $y -> saveUser($email,$pass);
+    echo password_hash($pass,PASSWORD_BCRYPT);
 }
 
 if(isset($_POST['subLogin']))

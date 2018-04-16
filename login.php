@@ -188,7 +188,7 @@ else{
                   <input type="password" id = "passRepeat" placeholder="Repeat Password" name="psw-repeat" required>
               
                   <label>
-                    <input type="checkbox" id = "check" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    <input type="checkbox" id = "check" checked="checked" name="remember" style="margin-bottom:15px"> Remember me </input>
                   </label>
               
                   <div class="clearfix">

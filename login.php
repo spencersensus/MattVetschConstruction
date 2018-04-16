@@ -3,7 +3,13 @@
 <head>
     <link href="login.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+        $(document).tooltip();
+    });
+    </script>
     <meta charset="utf-8" />
     <title></title>
 </head>
@@ -128,7 +134,7 @@ if(isset($_POST['sub']))
     $email = $_POST["email"];
     $pass = $_POST["psw"];
     $y -> saveUser($email,$pass);
-    echo password_hash($pass,PASSWORD_BCRYPT);
+    password_hash($pass,PASSWORD_BCRYPT);
 }
 
 if(isset($_POST['subLogin']))
@@ -179,7 +185,7 @@ else{
                   <input type="text" id = "user" placeholder="Enter Email" name="email" required>
               
                   <label for="psw"><b>Password</b></label>
-                  <input type="password" id = "pass" placeholder="Enter Password" name="psw" required>
+                  <input type="password" id = "pass" placeholder="Enter Password" name="psw" title = "Atleast 8 characters,1 Capitol, and 1 Character that is not a number or letter"required>
               
                   <label for="psw-repeat"><b>Repeat Password</b></label>
                   <input type="password" id = "passRepeat" placeholder="Repeat Password" name="psw-repeat" required>

@@ -29,6 +29,17 @@ h1{
     padding-top:30px;
 }
 
+.ui-tooltip{
+  margin-left: 250px;
+  background-color: white;
+  width: 130px;
+  padding: 12px 20px;
+  border-radius: 2px;
+  font: 10px "Helvetica Neue", Sans-Serif;
+  box-shadow: 0 0 7px black;
+  z-index: 100;
+}
+
 
 .HeaderText{
     position: absolute;

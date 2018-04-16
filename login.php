@@ -4,13 +4,13 @@
     <link href="login.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
     <script> 
         $( function() {
     $( document ).tooltip();
-  } );
+  });
     </script>
-    <meta charset="utf-8" />
-    <title></title>
 </head>
 <body>
 
@@ -182,10 +182,10 @@ else{
                   <input type="text" id = "user" placeholder="Enter Email" name="email" required>
               
                   <label for="psw"><b>Password</b></label>
-                  <input type="password" id = "pass" placeholder="Enter Password" name="psw" title = "Atleast 8 characters,1 Capitol, and 1 Character that is not a number or letter" required>
+                  <input type="password" id = "pass" placeholder="Enter Password" name="psw" title = "Atleast 8 characters,1 Capitol, and 1 Character that is not a number or letter">
               
                   <label for="psw-repeat"><b>Repeat Password</b></label>
-                  <input type="password" id = "passRepeat" placeholder="Repeat Password" name="psw-repeat" required>
+                  <input type="password" id = "passRepeat" placeholder="Repeat Password" name="psw-repeat">
               
                   <label>
                     <input type="checkbox" id = "check" checked="checked" name="remember" style="margin-bottom:15px"> Remember me </input>

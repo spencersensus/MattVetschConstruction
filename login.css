@@ -29,16 +29,7 @@ h1{
     padding-top:30px;
 }
 
-.tooltip{
-  margin-left: 250px;
-  background-color: white;
-  width: 130px;
-  padding: 12px 20px;
-  border-radius: 2px;
-  font: 10px "Helvetica Neue", Sans-Serif;
-  box-shadow: 0 0 7px black;
-  z-index: 100;
-}
+
 
 
 .HeaderText{
@@ -199,6 +190,17 @@ button.LoginButton{
   background:none;
   border:none;
   z-index:200;
+}
+
+.tooltip{
+  margin-left: 250px;
+  background-color: white;
+  width: 130px;
+  padding: 12px 20px;
+  border-radius: 2px;
+  font: 10px "Helvetica Neue", Sans-Serif;
+  box-shadow: 0 0 7px black;
+  z-index: 100;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */

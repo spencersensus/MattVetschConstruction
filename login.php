@@ -177,7 +177,7 @@ else{
 }
 </script>
 
-        <form class = "modal-content animate" action="login.php" style="border:1px solid #ccc" method = "post">
+        <form class = "validity" action="login.php" style="border:1px solid #ccc" method = "post">
                 <div class="container" id = "container">
                   <hr>
               
@@ -205,7 +205,7 @@ else{
 
             //checking if form fields are validx
            $(function() {
-            $(".module-content animate").validity()
+            $(".validity").validity()
                 .on('submit', function(e) {
                 var $this = $(this),
                     $btn = $this.find('[type="submit"]');

@@ -6,6 +6,7 @@
     <link href="login.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="validty/js/jquery.validity.js"></script>
     <meta charset="utf-8" />
     <title></title>
     <script> 
@@ -176,18 +177,21 @@ else{
 }
 </script>
 
-        <form class = "signUp" action="login.php" style="border:1px solid #ccc" method = "post">
+        <form class = "modal-content animate" action="login.php" style="border:1px solid #ccc" method = "post">
                 <div class="container" id = "container">
                   <hr>
               
                   <label for="email"><b>Email</b></label>
-                  <input type="text" id = "user" placeholder="Enter Email" name="email" required>
+                  <input type="text" id = "user" placeholder="Enter Email" name="email" value="<?php echo isset($_POST['email'])? $_POST['email'] : "" ?>" required
+            data-missing="This field is required">>
               
                   <label for="psw"><b>Password</b></label>
-                  <input type="password" id = "pass" placeholder="Enter Password" name="psw" title = "Atleast 8 characters,1 Capitol, and 1 Character that is not a number or letter">
+                  <input type="password" id = "pass" placeholder="Enter Password" name="psw" title = "Atleast 8 characters,1 Capitol, and 1 Character that is not a number or letter" value="<?php echo isset($_POST['psw'])? $_POST['psw'] : "" ?>" required
+            data-missing="This field is required">
               
                   <label for="psw-repeat"><b>Repeat Password</b></label>
-                  <input type="password" id = "passRepeat" placeholder="Repeat Password" name="psw-repeat">
+                  <input type="password" id = "passRepeat" placeholder="Repeat Password" name="psw-repeat" value="<?php echo isset($_POST['psw-repeat'])? $_POST['psw-repeat'] : "" ?>" required
+            data-missing="This field is required">
               
                   <label>
                     <input type="checkbox" id = "check" checked="checked" name="remember" style="margin-bottom:15px"> Remember me </input>
@@ -197,6 +201,22 @@ else{
                     <button type="submit" class="signupbtn" name = "sub">Sign Up</button>
                   </div>
                 </div>
+                <script>
+
+            //checking if form fields are validx
+           $(function() {
+            $(".module-content animate").validity()
+                .on('submit', function(e) {
+                var $this = $(this),
+                    $btn = $this.find('[type="submit"]');
+                    $btn.button('loading');
+                if (!$this.valid()) {
+                    e.preventDefault();
+                    $btn.button('reset');
+                }
+            });
+            });
+</script>
               </form>
 
 

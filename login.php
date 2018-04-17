@@ -6,7 +6,7 @@
     <link href="login.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="validty/js/jquery.validity.js"></script>
+    <script src="validity/js/jquery.validity.js"></script>
     <meta charset="utf-8" />
     <title></title>
     <script> 

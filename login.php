@@ -211,6 +211,7 @@ else{
                     $btn = $this.find('[type="submit"]');
                     $btn.button('loading');
                 if (!$this.valid()) {
+                    console.log("Not valid")
                     e.preventDefault();
                     $btn.button('reset');
                 }

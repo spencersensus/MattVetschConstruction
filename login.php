@@ -183,7 +183,7 @@ else{
               
                   <label for="email"><b>Email</b></label>
                   <input type="text" id = "user" placeholder="Enter Email" name="email" value="<?php echo isset($_POST['email'])? $_POST['email'] : "" ?>" required
-            data-missing="This field is required">>
+            data-missing="This field is required">
               
                   <label for="psw"><b>Password</b></label>
                   <input type="password" id = "pass" placeholder="Enter Password" name="psw" title = "Atleast 8 characters,1 Capitol, and 1 Character that is not a number or letter" value="<?php echo isset($_POST['psw'])? $_POST['psw'] : "" ?>" required

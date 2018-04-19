@@ -32,7 +32,7 @@ class tester{
      VALUES ('$email', '$phone', '$comm', STR_TO_DATE('$date','%m/%d/%Y'))";
      
      if ($conn->query($sql) === TRUE) {
-      echo "New record created successfully";
+         
   } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
   }
